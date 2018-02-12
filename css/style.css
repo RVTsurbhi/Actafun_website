@@ -244,3 +244,506 @@ text-align: center;
  text-align: center;
  font-size: 14px;
 }
+/* page2 css*/
+/*home2 section*/
+.home_img2{
+  background: url("../images/water_activity.jpg");
+  height: 400px;
+  margin-top: 0px;
+  background-position: center;
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+}
+#img_bottom h3{
+  font-size: 22px;
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
+#img_bottom h4{
+  font-size: 16px;
+  margin-bottom: 0px;
+  margin-top: 4px;
+}
+#img_bottom .fa-map-marker {
+    margin-right: 5px;
+}
+#img_bottom{
+margin-top: 10px;
+padding-bottom: 10px;
+border-bottom: 1px solid #e7e7e7;
+}
+#img_bottom .fa-star{
+  margin-right: 7px;
+  font-size: 15px;
+ }
+.c-para{
+  padding-top: 20px;
+  font-size:12px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: -10px;
+
+}
+.common_para{
+  padding-top: 20px;
+  font-size:12px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: -10px;
+  text-align: right;
+  float: right;
+  padding-right: 12px;
+}
+.my_price{
+  font-size: 18px;
+  color:  #660033 ;
+  padding-top: 24px;
+}
+.little{
+  color: #7F7F7F;
+  font-size: 12px;
+}
+.below .fa-heart-o{
+  padding-left: 12px;
+}
+.vr {
+    border-left: 2px solid #dde1dd;
+    height: 50px;
+    position: absolute;
+    left: 97%;
+    margin-left: 14px;
+    top: 10px;
+}
+.btn-primary{
+color: #fff;
+background-color: #4A0E27;
+border:none;
+border-radius: 30px;
+padding: 7px 41px;
+float: right;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #4A0E27;
+}
+#img_bottom h4{
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  color: #818179;
+}
+.below{
+  padding-right: 12px;
+  padding-left: 17px;
+}
+#overview h3{
+  font-size: 20px;
+  color: inherit;
+  font-family: 'Open Sans', sans-serif;
+}
+#overview P{
+  font-size: 11px;
+  color: inherit;
+  font-family: 'Open Sans', sans-serif;
+}
+#overview p img{
+  margin-right: 10px;
+margin-top: -1px;
+}
+#overview hr{
+  width:55px;
+  margin-top: 46px;
+  border-top: 4px solid brown;
+  width: 55px;
+}
+  #overview .col-md-5 {
+      padding-left: 36px;
+  }
+.card {
+   width: 336px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   text-align: center;
+   height: 150px;
+}
+.card h3{
+  padding-top: 10px;
+}
+.icons{
+  padding-top: 20px;
+}
+.icons .fa {
+    margin-right: 10px;
+    font-size: 16px;
+}
+.fa-facebook{
+  background-color: #395C98;
+  color: #fff;
+  padding: 11px 15px;
+ border-radius: 50%;
+}
+.fa-twitter{
+  background-color: #81C7E8;
+  color: #fff;
+  padding: 11px 13px;
+ border-radius: 50%;
+}
+.fa-google-plus{
+  background-color:#C30907;
+  color: #fff;
+  padding: 11px 10px;
+  border-radius: 50%;
+}
+.fa-instagram{
+  background-color:#1F449C;
+  color: #fff;
+  padding: 11px 12px;
+ border-radius: 50%;
+}
+.fa-telegram{
+  background-color: #49A8E0;
+  color: #fff;
+  padding: 11px 12px;
+  border-radius: 50%;
+}
+
+.card2 {
+   width: 100%;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   text-align: center;
+   height: 294px;
+  float: left;
+  margin-top: 33px;
+}
+#upcomming small{
+ color: #7F7F7F;
+ padding-left: 418px;
+ font-size: 12px;
+}
+#upcomming .col-md-5 {
+   padding-left: 36px;
+}
+
+.kkkk .card2{
+  width: 100%;
+}
+.kkkk {
+    float: left;
+    width: 100%;
+}
+.scuba_img {
+    float: left;
+    width: 100%;
+}
+#round_img {
+    height: 108px;
+    margin-top: 41px;
+    object-fit: cover;
+    object-position: center;
+}
+.scuba_img img {
+    text-align: center;
+    margin: auto;
+  }
+.mmm {
+    padding: 194px 0px;
+    margin-top: -24px;
+}
+.mmm h4{
+  font-size: 20px;
+  color: #623647;
+}
+.mmm h5{
+  font-size: 14px;
+  color: #555555;
+}
+.price2{
+  float: right;
+  margin-right: 30px;
+}
+.jhh_i8{
+    font-size : 20px;
+    color: #47202F;
+}
+.hgv_13{
+  margin-bottom: 13px;
+ margin-top: -14px;
+ font-size: 10px;
+ color:#7A7777;
+ padding-top: 2px;
+}
+
+.common-radio {
+  width: 92%;
+float: left;
+border-bottom: 1px solid #ccc;
+margin-top: 11px;
+margin-bottom: 4px;
+}
+.common-radio input {
+  float: left;
+  width: 45px;
+  }
+.span1{
+  font-size: 13px;
+      float: left;
+}
+.big{
+  padding: 30px;
+}
+#upcomming hr{
+margin-top: -31px;
+border-top: 1px solid #cec2c2;
+width: 573px;
+}
+.btn-default{
+  color: #fff;
+  background-color: #4A0E27;
+  border-radius: 30px;
+  padding: 9px 42px;
+  margin-right: 20px;
+  border: none;
+}
+.btn-default:hover {
+    color: #fff;
+    background-color: #4A0E27;
+    border-color: #4A0E27;
+}
+#map{
+  margin-top: 50px;
+
+}
+#map h3{
+  padding-left: 81px;
+}
+.center-btn{
+  text-align: center;
+  float: left;
+  width: 100%;
+  margin-top: 30px;
+  }
+#googlemap {
+ height: 450px;
+ width: 100%;
+}
+.btn-successs{
+color: #4A0E27;
+background-color: #fff;
+border-radius: 40px;
+position: relative;
+top: -473px;
+right: -992px;
+padding: 10px 44px;
+box-shadow: 2px 2px 2px 2px #928e8e;
+border: none;
+}
+.review-card1{
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  height: 250px;
+  margin-top: 33px;
+}
+.review-card2{
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  height: 250px;
+  margin-top: 33px;
+}
+#next-section{
+  margin-top: 50px;
+}
+.common-next{
+  width: 275px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  height: 400px;
+  margin-top: 33px;
+}
+.next-pic{
+  min-height:280px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.pic-text-next{
+  font-size: 14px;
+ color: #818179;
+ padding-left: 10px;
+}
+.box-next {
+  margin-left: -154px;
+  padding: 11px 28px;
+
+}
+.box-next h4{
+  font-size: 16px;
+  color: #3e3d3d;
+}
+#sec_img{
+  position: absolute;
+  border-radius: 55%;
+  margin-top: 40px;
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  object-position: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: 185px;
+}
+.review-box{
+position: relative;
+font-size: 12px;
+padding: 100px 70px;
+}
+.review-box p{
+  margin-top: -9px;
+  margin-bottom: 12px;
+}
+.review-box h4{
+  margin-bottom: 6px;
+}
+.review-box p .fa-star{
+  margin-right: 6px;
+}
+.half1{
+  float: left;
+  margin-top: -8px;
+}
+.half2{
+  float: right;
+  margin-top: -7px;
+}
+#img_bottom .col-sm-6 {
+    padding-left: 0px;
+}
+#img_bottom .col-md-5 {
+    padding-left: 36px;
+    width: 41%;
+    padding-right: 0px;
+}
+
+/*.container {
+    width: 1060px;
+}*/
+.foot_img{
+  background: url("../images/footer.jpg");
+  height: 700px;
+  width: 100%;
+}
+#bottom_foot{
+  margin-top: 50px;
+}
+.foot1 h1{
+  color: #FFFFFF;
+  margin-top: 75px;
+  padding: 75px 209px;
+  text-align: center;
+}
+.foot1 input{
+border-radius: 30px;
+padding: 16px 90px;
+margin-left: 503px;
+margin-top: -22px;
+border: none;
+background-color: #fff;
+}
+.fc1{
+margin-left: 72px;
+margin-top: 120px;
+font-family: 'Open Sans', sans-serif;
+}
+.fc1 input{
+width: 85%;
+margin-top: 25px;
+}
+.fc1 h4{
+  color: #FFFFFF;
+}
+.fc1 p{
+  color: #FFFFFF;
+}
+.fc2{
+margin-top: 120px;
+color: #FFFFFF;
+font-family: 'Open Sans', sans-serif;
+}
+.fc3{
+margin-top: 120px;
+color: #FFFFFF;
+font-family: 'Open Sans', sans-serif;
+}
+.fc2 input{
+  padding: 11px 44px;
+border-radius: 40px;
+background-color: #4C0E27;
+color: #fff;
+margin-top: 16px;
+border: none;
+}
+.fc2 p{
+  margin-top: 20px;
+}
+.fc3 p{
+  margin-top: 20px;
+}
+
+.foot-icons .fa-facebook{
+  background-color: #4A0E27;
+  color: #fff;
+  padding: 15px 18px;
+ border-radius: 50%;
+}
+.foot-icons .fa-instagram{
+  background-color:#4A0E27;
+  color: #fff;
+  padding: 15px 15px;
+ border-radius: 50%;
+}
+.foot-icons{
+  padding-top: 24px;
+}
+.foot-icons .fa {
+    margin-right: 10px;
+    font-size: 16px;
+}
+.next-head{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 80px;
+margin-bottom: -31px;
+}
+.review-head{
+margin-left: 100px;
+margin-bottom: -32px;
+font-size: 18px;
+margin-left: 18px;
+}
+.review-span{
+  color: #451E2C;
+  margin-left: 776px;
+  font-size: 20px;
+}
+.review-bottom h3{
+  color: #451E2C;
+  margin-left: 948px;
+  font-size: 18px;
+}
+.container {
+    width: 1090px;
+}
+.video-head h3{
+ margin-bottom: 19px;
+}
+.format{
+  float:left;
+  width: 100%;
+}
+.format iframe {
+    width: 100%;
+}
+.format .card{
+    width: 100%;
+}
+
+.next-head h3{
+  margin-right: 817px;
+}
