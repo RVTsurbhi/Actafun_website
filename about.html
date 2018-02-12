@@ -11,6 +11,8 @@
     <meta name="author" content="">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="slick-1.8.0/slick/slick.css" rel="stylesheet">
+    <link href="slick-1.8.0/slick/slick-theme.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <!--script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script-->
@@ -62,37 +64,89 @@
           </div><!-- /.navbar-collapse -->
     </nav>
 
+        <!-- Modal -->
+     <div class="modal fade" id="myModal" role="dialog">
+       <div class="modal-dialog">
+
+         <!-- Modal content-->
+         <div class="modal-content">
+           <div class="modal-header">
+             <button type="button" class="close" data-dismiss="modal">&times;</button>
+             <h3 class="modal-title">upcomming availability</h3>
+           </div>
+           <div class="modal-body">
+               <div class="common-radio">
+                 <div class="span1"><input type="radio" name="date">03 may 2018, sunday<br>
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11:00-13:00</div>
+                 <div class="price2">
+                   <p class="jhh_i8">&euro;250</p>
+                   <p class="hgv_13">per person</p>
+                 </div>
+               </div>
+
+               <div class="common-radio">
+                 <div class="span1"><input type="radio" name="date">03 may 2018, sunday<br>
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11:00-13:00</div>
+                 <div class="price2">
+                   <p class="jhh_i8">&euro;250</p>
+                   <p class="hgv_13">per person</p>
+                 </div>
+               </div>
+
+               <div class="common-radio">
+                 <div class="span1"><input type="radio" name="date">03 may 2018, sunday<br>
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11:00-13:00</div>
+                 <div class="price2">
+                   <p class="jhh_i8">&euro;250</p>
+                   <p class="hgv_13">per person</p>
+                 </div>
+               </div>
+
+             </div>
+
+
+             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+         </div>
+
+       </div>
+     </div>
+
     <section id="home2">
       <div class="home_img2">
       </div>
     </section>
 
     <section id="img_bottom">
+      <div class="burner">
       <div class="container">
-        <div class="row">
-          <div class="col-md-7">
-            <div class="col-sm-6">
-              <h3>Scuba Diving</h3><h4><i class="fa fa-map-marker"></i>Howth, Dublin</h4>
-              <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-            </div>
-            <div class="col-sm-6">
-              <p class="common_para">Total view :<b> 121</b> <br>Last Booked : <b>15 min ago</b></p>
-            </div>
-            <div class="vr">
-            </div>
-          </div>
 
-          <div class="col-md-5">
-            <div class="half1">
-              <p class="c-para"><span class="my_price">&euro;250</span><br><small class="little">per person</small>
-              </p>
+          <div class="row">
+            <div class="col-md-7">
+              <div class="col-sm-6">
+                <h3>Scuba Diving</h3><h4><i class="fa fa-map-marker"></i>Howth, Dublin</h4>
+                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+              </div>
+              <div class="col-sm-6">
+                <p class="common_para">Total view :<b> 121</b> <br>Last Booked : <b>15 min ago</b></p>
+              </div>
+              <div class="vr">
+              </div>
             </div>
-            <div class="half2">
-              <p class="c-para"><button type="button" class="btn btn-primary">see dates</button></p>
-              <br><span class="below">Save to wishlist<i class="fa fa-heart-o"></i></span>
+
+            <div class="col-md-5">
+              <div class="half1">
+                <p class="c-para"><span class="my_price">&euro;250</span><br><small class="little">per person</small>
+                </p>
+              </div>
+              <div class="half2">
+                <p class="c-para"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">see dates</button></p>
+                <br><span class="below">Save to wishlist<i class="fa fa-heart-o heart_icon"></i></span>
+              </div>
             </div>
           </div>
         </div>
+
       </div>
     </section>
 
@@ -161,7 +215,16 @@
             <h3>Upcomming Availability</h3>
             <div class="common-radio">
               <div class="span1"><input type="radio" name="date">03 may 2018, sunday<br>
-                11:00-13:00</div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11:00-13:00</div>
+              <div class="price2">
+                <p class="jhh_i8">&euro;250</p>
+                <p class="hgv_13">per person</p>
+              </div>
+            </div>
+
+            <div class="common-radio">
+              <div class="span1"><input type="radio" name="date">03 may 2018, sunday<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11:00-13:00</div>
               <div class="price2">
               <p class="jhh_i8">&euro;250</p>
               <p class="hgv_13">per person</p>
@@ -170,35 +233,15 @@
 
             <div class="common-radio">
               <div class="span1"><input type="radio" name="date">03 may 2018, sunday<br>
-                11:00-13:00</div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11:00-13:00</div>
               <div class="price2">
-              <p class="jhh_i8">&euro;250</p>
-              <p class="hgv_13">per person</p>
+                <p class="jhh_i8">&euro;250</p>
+                <p class="hgv_13">per person</p>
+              </div>
             </div>
-            </div>
-
-            <div class="common-radio">
-              <div class="span1"><input type="radio" name="date">03 may 2018, sunday<br>
-                11:00-13:00</div>
-              <div class="price2">
-              <p class="jhh_i8">&euro;250</p>
-              <p class="hgv_13">per person</p>
-            </div>
-            </div>
-
-
-            <!--div class="common-radio">
-              <input type="radio" name="date" ><span class="span1">03 may 2018, sunday<br>11:00-13:00<span class="price2">&euro;250</span><small>per person</small><br>
-            <hr>
-          </div-->
-
-            <!--div class="common-radio">
-              <input type="radio" name="date"><span class="span1">03 may 2018, sunday<br>11:00-13:00<span class="price2">&euro;250</span><small>per person</small><br>
-             <hr>
-           </div-->
 
             <div class="center-btn">
-              <button type="button" class="btn-default">see dates</button>
+              <button type="button" class="btn-default" data-toggle="modal" data-target="#myModal">see dates</button>
             </div>
           </div>
 
@@ -380,5 +423,6 @@
       <script src="js/jquery.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <script src="js/scripts.js"></script>
+      <script type="text/javascript" src="slick-1.8.0/slick/slick.js"></script>
   </body>
 </html>
